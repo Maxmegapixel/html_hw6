@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #fff;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+a,
+p,
+button {
+  
+}
+
+body {
+  max-width: 1600px;
+  height: 75px;
+}
+
+.top_panel {
+  
+}
