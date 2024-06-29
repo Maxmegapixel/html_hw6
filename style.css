@@ -130,12 +130,17 @@ body {
   color: #f16d7f;
 }
 
+.header {
+  margin-bottom: 100px;
+}
+
 .categories {
-  padding: 65px 230px 0;
+
   height: 470px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 60px;
 }
 
 .categories p {
@@ -190,7 +195,7 @@ body {
 }
 
 .items {
-  padding: 96px 0px 60px 0;
+  padding: 20px 360px 20 360px;
 }
 
 .items_title h1 {
@@ -207,15 +212,21 @@ body {
 
 .items_title {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .items_center {
-  padding-top: 57px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 25px;
   margin-bottom: 48px;
+}
+
+.items_center img {
+  width: 360px;
+  height: 420px;
 }
 
 .block_text h2 {
@@ -264,5 +275,6 @@ body {
   border: 1px solid #f26376;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  margin-bottom: 50px;
 }
