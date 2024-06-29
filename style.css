@@ -131,7 +131,7 @@ body {
 }
 
 .categories {
-  padding: 65px 230px;
+  padding: 65px 230px 0;
   height: 470px;
   display: flex;
   flex-wrap: wrap;
@@ -187,4 +187,82 @@ body {
 	background:
 		linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
 		url(./img/4-ACCESORIES.png);
+}
+
+.items {
+  padding: 96px 0px 60px 0;
+}
+
+.items_title h1 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #222;
+}
+
+.items_title p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.items_title {
+  text-align: center;
+}
+
+.items_center {
+  padding-top: 57px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 48px;
+}
+
+.block_text h2 {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000;
+}
+
+.block_text p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #5d5d5d;
+}
+
+.block_text h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f16d7f;
+}
+
+.block_text {
+  padding: 24px 30px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.items_centr_block {
+  width: 360px;
+}
+
+.btm_items button{
+  width: 212px;
+  height: 48px;
+
+
+  background-color: #ffffff;
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f26376;
+  cursor: pointer;
+}
+
+.btm_items {
+  width: 212px;
+  border: 1px solid #f26376;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
