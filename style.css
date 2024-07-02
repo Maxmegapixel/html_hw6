@@ -128,12 +128,13 @@ body {
 }
 
 .categories {
-
-  height: 470px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
   margin-bottom: 60px;
+}
+
+.categories_choice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .categories p {
@@ -341,17 +342,25 @@ body {
   }
 
   .categories {
-    min-width: 735px;
-    height: 303px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .categories_choice {
+    margin-bottom: 20px;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 50px;
+
+
 
   }
 
   .img_container {
     width: 232px;
     height: 167px;
+
   }
 
   .img_container_down {
