@@ -77,6 +77,10 @@ body {
   gap: 41px;
 }
 
+.svg2 {
+  display: none;
+}
+
 .front_motto img {
   width: 800px;
   height: 764px;
@@ -137,6 +141,11 @@ body {
   margin-bottom: 30px;
 }
 
+.categories_choice img {
+  width: 360px;
+  height: 260px;
+}
+
 .categories p {
   font-weight: 400;
   font-size: 16px;
@@ -178,7 +187,7 @@ body {
 }
 
 .img_container_down {
-  width: 1140px;
+  max-width: 1140px;
   height: 180px;
   display: flex;
   flex-direction: column;
@@ -274,11 +283,26 @@ body {
   margin-bottom: 50px;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1280px) and (min-width: 1025px) {
 
-  body {
-    max-width: 100vw;
+  .container {
+    min-width: 1025px;
   }
+
+  .front_motto img {
+    width: 60%;
+  }
+
+  .front_text {
+    padding-left: 0;
+  }
+
+  .items_center {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
 
   .container {
     margin: 0;
@@ -371,6 +395,99 @@ body {
   .items_center {
 
     justify-content: center;
+  }
+
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+  .container {
+    margin: 0;
+    min-width: 320px;
+  }
+
+  .form2 {
+    display: none;
+  }
+
+  .form3 {
+    display: none;
+  }
+
+  .logosearch {
+    padding-left: 16px;
+  }
+
+  .head_items {
+    flex-direction: row-reverse;
+    padding-right: 16px;
+  }
+
+  .front_motto img {
+    display: none;
+  }
+
+  .front_motto {
+    height: 368px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .front_motto h2 {
+    font-size: 38px;
+  }
+
+  .front_motto h3 {
+    font-size: 20px;
+  }
+
+.svg1 {
+  display: none;
+}
+
+.svg2 {
+  display: block;
+}
+
+.front_text {
+    width: 280px;
+    height: 66px;
+    padding: 0;
+    gap: 15px;
+  }
+
+  .header {
+    margin-bottom: 65px;
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  .categories_choice {
+    flex-direction: column;
+    margin-bottom: 32px;
+    gap: 32px;
+  }
+
+  .img_container {
+    width: 343px;
+    height: 247px;
+  }
+
+  .img_container_down {
+    width: 343px;
+    height: 111px;
+  }
+
+  .items_center {
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
   }
 
 }
