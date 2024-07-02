@@ -482,6 +482,7 @@ body {
   .img_container_down {
     width: 343px;
     height: 111px;
+    background-position: center;
   }
 
   .items_center {
