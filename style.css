@@ -483,6 +483,7 @@ body {
     width: 343px;
     height: 111px;
     background-position: center;
+    object-fit: cover;
   }
 
   .items_center {
