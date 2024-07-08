@@ -259,14 +259,49 @@ body {
   flex-direction: column;
   gap: 16px;
 }
+
 .items_centr_block {
   width: 360px;
   background: #3A3838;
 }
 
+.items_centr-add p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
 
-.items_centr_block img:hover {
+.items_centr_img {
+  height: 420px;
+}
+
+.items_centr-addbtn {
+  position: relative;
+  bottom: 230px;
+  left: 111px;
+  width: 139px;
+  height: 44px;
+  background: rgba(244, 244, 244, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.items_centr_img:hover img {
   opacity: 0.14;
+}
+
+
+
+.items_centr_img:hover .items_centr-addbtn {
+  display: flex;
 }
 
 .btm_items button{
@@ -301,7 +336,6 @@ body {
 .foot_first-in {
   display: flex;
   justify-content: space-between;
-
 }
 
 .foot_first-container {
