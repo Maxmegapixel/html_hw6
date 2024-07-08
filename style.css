@@ -452,6 +452,15 @@ body {
   .items_center {
     justify-content: center;
   }
+
+  .last_block-copy {
+    padding-left: 32px;
+  }
+
+  .last_block-logo {
+    padding-right: 32px;
+  }
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -459,7 +468,6 @@ body {
   .container {
     margin: 0;
     min-width: 768px;
-
   }
 
   .top_panel {
@@ -528,15 +536,11 @@ body {
     margin-bottom: 20px;
     justify-content: center;
     gap: 20px;
-
-
-
   }
 
   .img_container {
     width: 232px;
     height: 167px;
-
   }
 
   .img_container_down {
@@ -545,8 +549,42 @@ body {
   }
 
   .items_center {
-
     justify-content: center;
+  }
+
+  .foot_first-in {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
+  }
+
+  .foot_first-container {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .foot_second-in {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 140px;
+  }
+
+  .foot_second-left {
+    padding-top: 64px;
+    padding-bottom: 0;
+  }
+
+  .foot_second-right {
+    padding-top: 48px;
+    padding-bottom: 0;
+  }
+
+  .last_block-copy {
+    padding-left: 32px;
+  }
+
+  .last_block-logo {
+    padding-right: 32px;
   }
 
 }
@@ -643,4 +681,73 @@ body {
     gap: 16px;
     margin-bottom: 40px;
   }
+
+  .foot_first-in {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+
+  .foot_first-container {
+    width: 340px;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .foot_second-in {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
+  }
+
+  .foot_second-left {
+    width: 340px;
+    padding-top: 64px;
+    padding-bottom: 0;
+  }
+
+  .foot_second-left p {
+    font-size: 18px;
+  }
+
+  .foot_second-right {
+    width: 340px;
+    padding-top: 59px;
+    padding-bottom: 0;
+  }
+
+  .foot_second-rtext {
+    line-height: 153%;
+  }
+
+  .foot_second-rtext h3 {
+    font-size: 14px;
+  }
+
+  .foot_second-rinp input {
+    width: 234px;
+  }
+
+  .foot_second-rinp button {
+    width: 96px;
+  }
+
+  .foot_last {
+    height: 150px;
+  }
+
+  .last_block {
+    flex-direction: column-reverse;
+    align-items: center;
+
+  }
+
+  .last_block-logo {
+    padding-top: 43px;
+  }
+
+  .last_block-copy {
+    padding-top: 40px;
+  }
+
 }
