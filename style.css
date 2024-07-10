@@ -79,6 +79,30 @@ body {
   gap: 41px;
 }
 
+.numb_curd {
+  display: block;
+  position:relative;
+  top: -7px;
+  right: 12px;
+  width: 19px;
+  height: 19px;
+  background-color: #F16D7F;
+  border-radius: 50%;
+}
+
+.form3 {
+  display: flex;
+  position: relative;
+  top: -2px;
+}
+
+.numb_curd p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
 .header__checkbox {
   position: absolute;
   visibility: hidden;
@@ -86,20 +110,20 @@ body {
 }
 
 .header__checkbox:checked~.mobile-menu {
-  right: 0;
+  display: block;
 }
 
 .mobile-menu {
   position: absolute;
   top: 75px;
-  right: -232px;
+  right: 0;
   z-index: 1;
-  transition: right 0.6s;
   width: 232px;
   background: #FFFFFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   padding: 32px;
   box-sizing: border-box;
+  display: none;
 }
 
 .mobile-menu__heading {
@@ -361,14 +385,18 @@ body {
   display: none;
 }
 
-.items_centr_img:hover img {
+.items_centr_block:hover img {
   opacity: 0.14;
 }
 
-
-
-.items_centr_img:hover .items_centr-addbtn {
+.items_centr_block:hover .items_centr-addbtn {
   display: flex;
+}
+.items_centr-addbtn:hover path {
+  fill:#F16D7F;
+}
+.items_centr-addbtn:hover {
+  box-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
 .btm_items button{
