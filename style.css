@@ -264,19 +264,19 @@ body {
 .img_bg_1 {
 	background:
 		linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-		url(./img/1-for\ women.png);
+		url(./img/1-for_women.png);
 }
 
 .img_bg_2 {
 	background:
 		linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-		url(./img/2-for\ men.png);
+		url(./img/2-for_men.png);
 }
 
 .img_bg_3 {
 	background:
 		linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-		url(./img/3-for\ kids.png);
+		url(./img/3-for_kids.png);
 }
 
 .img_container_down {
@@ -288,10 +288,6 @@ body {
 	background:
 		linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
 		url(./img/4-ACCESORIES.png);
-}
-
-.items {
-  padding: 20px 360px 20 360px;
 }
 
 .items_title h1 {
