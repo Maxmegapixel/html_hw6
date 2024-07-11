@@ -539,9 +539,9 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #222224;
-  opacity: 0.67;
-  box-sizing:border-box;
+  box-sizing: border-box;
   padding-left: 30px;
+  padding-right: 15px;
 }
 
 .foot_second-rinp {
